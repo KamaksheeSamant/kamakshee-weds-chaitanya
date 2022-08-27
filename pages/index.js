@@ -25,7 +25,7 @@ export default function Home() {
       <Wedding/>
       <div className="bg-orange-400 h-[120px] angle3"></div>
       <Navigation/>
-      <div className="bg-[#e1b4e5] h-[120px] angle4"></div>
+      <div className="bg-[#d84242] h-[120px] angle4"></div>
       <RSVP/>
     </div>
   )
