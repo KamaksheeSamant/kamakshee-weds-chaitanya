@@ -31,6 +31,31 @@
   clip-path: polygon(100% 100%, 100% 0, 0 0);
 }
 
+.angle2:after{
+  background-color: #48d8a4;
+  height: 120px;
+  content: '';
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 25% 100%);
+}
+
+.angle3:after{
+  background-color: #7689d8;
+  height: 120px;
+  content: '';
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+}
+
+.angle4:after{
+  background-color:rgb(251 146 60 / 1);
+  height: 120px;
+  content: '';
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+
 .mainEnd:after{
     content: url(/assets/main-flower.svg);
     display: block;

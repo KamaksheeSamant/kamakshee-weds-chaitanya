@@ -61,7 +61,7 @@ const NavBar = () => {
               width="200"
               height="200"
             />
-            <div className="rounded-full shadow-lg p-3 shadow-gray-700 cursor-pointer">
+            <div className="h-[50px] rounded-full shadow-lg p-3 shadow-gray-700 cursor-pointer">
               <AiOutlineClose
                 size={25}
                 onClick={() => setIsSideMenuOpen(false)}

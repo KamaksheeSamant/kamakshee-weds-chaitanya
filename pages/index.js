@@ -2,6 +2,9 @@ import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import Main from '../components/Main'
 import Story from '../components/Story'
+import Wedding from '../components/Wedding'
+import Navigation from '../components/Navigation'
+import RSVP from '../components/RSVP'
 
 // import Image from 'next/image';
 // import styles from '../styles/Home.module.css'
@@ -18,7 +21,12 @@ export default function Home() {
       <Main/>
       <div className="bg-[#48d8a4] h-[120px] angle1"></div>
       <Story/>
-      <div className="bg-[#48d8a4] h-[120px] angle1"></div>
+      <div className="bg-[#7689d8] h-[120px] angle2"></div>
+      <Wedding/>
+      <div className="bg-orange-400 h-[120px] angle3"></div>
+      <Navigation/>
+      <div className="bg-[#e1b4e5] h-[120px] angle4"></div>
+      <RSVP/>
     </div>
   )
 }

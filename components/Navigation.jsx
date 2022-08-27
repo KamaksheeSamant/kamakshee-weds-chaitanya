@@ -1,12 +1,12 @@
 import React from "react";
 
-function Main() {
+function Navigation() {
   return (
-    <div className="w-full h-fit text-center pt-28 mainEnd">
+    <div className="w-full h-fit text-center pt-28 bg-orange-400">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
         <div>
             <p className="uppercase text-sm tracking-widest text-[white]">
-                LETS Main
+                LETS navigate
             </p>
             <h1 className="py-4 text-[white]">
                 okok jhshshshhs
@@ -23,4 +23,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Navigation;
