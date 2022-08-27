@@ -22,3 +22,21 @@
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5ba36d] to-[#795656]
   }
 }
+
+.angle1:after{
+  background-color: #f7cacc;
+  height: 120px;
+  content: '';
+  display: block;
+  clip-path: polygon(100% 100%, 100% 0, 0 0);
+}
+
+.mainEnd:after{
+    content: url(/assets/main-flower.svg);
+    display: block;
+    z-index: 1;
+    height: auto;
+    width: 160px;
+    position: absolute;
+    right: 0px;
+}

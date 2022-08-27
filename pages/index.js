@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
-import Image from 'next/image';
-import styles from '../styles/Home.module.css'
+import Main from '../components/Main'
+import Story from '../components/Story'
+
+// import Image from 'next/image';
+// import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -12,6 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar/>
+      <Main/>
+      <div className="bg-[#48d8a4] h-[120px] angle1"></div>
+      <Story/>
+      <div className="bg-[#48d8a4] h-[120px] angle1"></div>
     </div>
   )
 }
