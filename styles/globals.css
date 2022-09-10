@@ -85,7 +85,7 @@
 }
 
 .regardsBlockStart:after{
-  content: url(/assets/namaste.png);
+  content: url(/kamakshee-weds-chaitanya/assets/namaste.png);
   display: block;
   z-index: 1;
   height: auto;
