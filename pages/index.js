@@ -27,6 +27,15 @@ export default function Home() {
       <Navigation/>
       <div className="bg-[#d84242] h-[120px] angle4"></div>
       <RSVP/>
+      <footer className="bg-[#d84242] w-full h-fit text-center pt-10 pb-10">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
+        <div>
+            <p className=" text-sm tracking-widest text-[white]">
+              © 2022 By Kamakshee & Chaitanya. Proudly created with love.
+            </p>
+        </div>
+      </div>
+      </footer>
     </div>
   )
 }
