@@ -84,6 +84,16 @@
   left: 0px;
 }
 
+.regardsBlockStart:after{
+  content: url(/assets/namaste.png);
+  display: block;
+  z-index: 1;
+  height: auto;
+  width: 160px;
+  position: absolute;
+  left: 0px;
+}
+
 
 .weddingEnd:after{
   background-image: url(/kamakshee-weds-chaitanya/assets/ring.svg);
