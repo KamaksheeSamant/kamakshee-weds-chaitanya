@@ -74,3 +74,28 @@
     right: 0px;
 }
 
+.storyBlockEnd:after{
+  content: url(/assets/heart.svg);
+  display: block;
+  z-index: 1;
+  height: auto;
+  width: 160px;
+  position: absolute;
+  left: 0px;
+}
+
+
+.weddingEnd:after{
+  background-image: url(/assets/ring.svg);
+  background-size: 10px 20px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  width: 250px;
+  height: 250px;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+}

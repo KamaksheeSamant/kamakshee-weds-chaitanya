@@ -9,7 +9,7 @@ import Vl from "./Vl";
 
 function Wedding() {
   return (
-    <div className="w-full h-fit text-center pt-28 bg-[#7689d8]" id="wedding">
+    <div className="w-full h-fit text-center pt-28 bg-[#7689d8] weddingEnd" id="wedding">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
         <div>
           <Image
