@@ -57,7 +57,7 @@
 
 
 .mainEnd:after{
-    content: url(/assets/main-flower.svg);
+    content: url('kamakshee-weds-chaitany/assets/main-flower.svg');
     display: block;
     z-index: 1;
     height: auto;
