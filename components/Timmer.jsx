@@ -30,7 +30,7 @@ function Timmer() {
     };
   });
   return (
-    <div className="flex flex-col justify-center mb-10">
+    <div className="flex flex-col justify-center my-10">
       <div className=" flex flex-row justify-center">
         <div className="pl-5 pr-5">
           <h2 className="uppercase text-sm tracking-widest text-[#daa520]">{timeLeft.days}</h2>
