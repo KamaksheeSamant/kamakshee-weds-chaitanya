@@ -1,4 +1,5 @@
 import React from "react";
+import Vl from "./Vl";
 
 function Story() {
   return (
@@ -8,6 +9,7 @@ function Story() {
     >
       <div className="w-full h-full mx-auto p-2 justify-center items-center pb-16 max-w-[750px]">
         <h2 className="py-6 text-[#fcf3c9]">Our Story</h2>
+        <Vl color="#fcf3c9"/>
         <p className="py-1 text-lg tracking-widest text-[#fcf3c9]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever

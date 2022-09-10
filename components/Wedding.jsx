@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { GrLocation } from "react-icons/gr";
 import { Icon } from "react-icons-kit";
-import { home } from "react-icons-kit/icomoon/home";
 import { location } from "react-icons-kit/icomoon/location";
 import { clock } from "react-icons-kit/icomoon/clock";
 import Vl from "./Vl";
@@ -36,10 +34,10 @@ function Wedding() {
             </div>
           </div>
           <div className="flex align-center justify-around">
-            <p className="py-4 text-lg tracking-widest text-[#fcf3c9] w-1/2">
-              December 17, 2023, 9:00 AM
+            <p className="p-6 text-lg tracking-widest text-[#fcf3c9] w-1/2">
+              December 17, 2022, 9:00 AM
             </p>
-            <p className="py-4 text-lg tracking-widest text-[#fcf3c9] w-1/2">
+            <p className="p-6 text-lg tracking-widest text-[#fcf3c9] w-1/2">
               Swatantriyveer Savarkar Marg, Opp.Catering College, Dadar West, Dadar, Mumbai, Maharashtra 400028, India
             </p>
           </div>
