@@ -1,10 +1,19 @@
 import React from "react";
+import Image from "next/image";
+
 
 function Wedding() {
   return (
-    <div className="w-full h-fit text-center pt-28 bg-[#7689d8]">
+    <div className="w-full h-fit text-center pt-28 bg-[#7689d8]" id="wedding">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
         <div>
+          <Image
+            className=""
+            src="/assets/twoStates.png"
+            alt="logo"
+            width="200"
+            height="300"
+          />
             <p className="uppercase text-sm tracking-widest text-[white]">
                 LETS Wedding
             </p>

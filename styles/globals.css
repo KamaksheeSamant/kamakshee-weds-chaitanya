@@ -2,10 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer base{
+
+  html{
+    scroll-behavior: smooth;
+  }
+
   body{
     @apply bg-[#f7cacc] text-[#020205] tracking-wide
   }
+
   h1, h2, h3, h4, h5, h6{
     @apply font-bold
   }
@@ -65,3 +73,4 @@
     position: absolute;
     right: 0px;
 }
+
