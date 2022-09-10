@@ -65,7 +65,7 @@
 
 
 .mainEnd:after{
-    content: url(/assets/main-flower.svg);
+    content: url(/kamakshee-weds-chaitanya/assets/main-flower.svg);
     display: block;
     z-index: 1;
     height: auto;
@@ -75,7 +75,7 @@
 }
 
 .storyBlockEnd:after{
-  content: url(/assets/heart.svg);
+  content: url(/kamakshee-weds-chaitanya/assets/heart.svg);
   display: block;
   z-index: 1;
   height: auto;
@@ -86,7 +86,7 @@
 
 
 .weddingEnd:after{
-  background-image: url(/assets/ring.svg);
+  background-image: url(/kamakshee-weds-chaitanya/assets/ring.svg);
   background-size: 10px 20px;
   background-size: 250px;
   background-repeat: no-repeat;
