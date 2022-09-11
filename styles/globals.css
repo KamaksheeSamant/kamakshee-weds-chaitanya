@@ -65,22 +65,30 @@
 
 
 .mainEnd:after{
-    content: url(/kamakshee-weds-chaitanya/assets/main-flower.svg);
-    display: block;
-    z-index: 1;
-    height: auto;
-    width: 160px;
-    position: absolute;
-    right: 0px;
+  background-image: url(/kamakshee-weds-chaitanya/assets/main-flower.svg);
+  background-size: 160px;
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  width: 160px;
+  height: 200px;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0px;
 }
 
 .storyBlockEnd:after{
-  content: url(/kamakshee-weds-chaitanya/assets/heart.svg);
+  background-image: url(/kamakshee-weds-chaitanya/assets/heart.svg);
+  background-size: 160px;
+  background-repeat: no-repeat;
+  content: '';
   display: block;
-  z-index: 1;
-  height: auto;
   width: 160px;
+  height: 160px;
+  content: "";
   position: absolute;
+  z-index: 1;
   left: 0px;
 }
 
@@ -97,13 +105,12 @@
 
 .weddingEnd:after{
   background-image: url(/kamakshee-weds-chaitanya/assets/ring.svg);
-  background-size: 10px 20px;
-  background-size: 250px;
+  background-size: 160px;
   background-repeat: no-repeat;
   content: '';
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 160px;
+  height: 160px;
   content: "";
   position: absolute;
   z-index: 1;

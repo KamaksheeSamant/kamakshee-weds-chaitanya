@@ -12,7 +12,7 @@ function Navigation() {
       className="w-full h-fit text-center pt-28 bg-orange-400 regardsBlockStart"
     >
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center flex flex-col">
-        <h2 className="py-6 text-[#fcf3c9]">Getting there</h2>
+        <h2 className="py-6 text-[#fcf3c9]">Getting There</h2>
         <Vl color="#fcf3c9" />
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15087.679568863266!2d72.8340227!3d19.0232513!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c16493b9d0a73b7!2sSuryavanshi%20Kshatriya%20Sabhagruha%20And%20Banquet%20Hall!5e0!3m2!1sen!2sau!4v1662802535850!5m2!1sen!2sau"

@@ -45,8 +45,8 @@ const NavBar = () => {
               Getting There
             </li>
           </Link>
-          <Link href="/#rsvp">
-            <li className="ml-10 text-sm uppercase hover:border-b">RSVP</li>
+          <Link href="/#regards">
+            <li className="ml-10 text-sm uppercase hover:border-b">Regards</li>
           </Link>
         </ul>
         <div className="md:hidden">
@@ -97,8 +97,8 @@ const NavBar = () => {
               <Link href="/#navigation">
                 <li onClick={()=>setIsSideMenuOpen(false)} className="py-4 text-sm">Getting there</li>
               </Link>
-              <Link href="/#rsvp">
-                <li onClick={()=>setIsSideMenuOpen(false)} className="py-4 text-sm">RSVP</li>
+              <Link href="/#regards">
+                <li onClick={()=>setIsSideMenuOpen(false)} className="py-4 text-sm">Regards</li>
               </Link>
             </ul>
           </div>

@@ -1,23 +1,12 @@
 import React from "react";
-import Image from "next/image";
 import Vl from "./Vl";
 
-function Story() {
+function Regards() {
   return (
-    <div
-      id="story"
-      className="w-full h-fit text-center pt-28 bg-[#48d8a4] storyBlockEnd"
-    >
-      <div className="w-full h-full mx-auto p-2 justify-center items-center pb-16 max-w-[750px]">
-        <Image
-          className=""
-          src="/assets/us_pic.png"
-          alt="logo"
-          width="400"
-          height="400"
-        />
-        <h2 className="py-6 text-[#fcf3c9]">Our Story</h2>
-        <Vl color="#fcf3c9"/>
+    <div id="regards" className="w-full h-fit text-center pt-28 bg-[#d84242]">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
+        <h2 className="py-6 text-[#fcf3c9]">With Love and Regards</h2>
+        <Vl color="#fcf3c9" />
         <p className="py-1 text-lg tracking-widest text-[#fcf3c9]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever
@@ -34,4 +23,4 @@ function Story() {
   );
 }
 
-export default Story;
+export default Regards;

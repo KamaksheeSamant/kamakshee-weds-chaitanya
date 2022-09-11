@@ -4,7 +4,7 @@ import Main from '../components/Main'
 import Story from '../components/Story'
 import Wedding from '../components/Wedding'
 import Navigation from '../components/Navigation'
-import RSVP from '../components/RSVP'
+import Regards from '../components/Regards'
 
 // import Image from 'next/image';
 // import styles from '../styles/Home.module.css'
@@ -26,11 +26,11 @@ export default function Home() {
       <div className="bg-orange-400 h-[120px] angle3"></div>
       <Navigation/>
       <div className="bg-[#d84242] h-[120px] angle4"></div>
-      <RSVP/>
+      <Regards/>
       <footer className="bg-[#d84242] w-full h-fit text-center pt-10 pb-10">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
         <div>
-            <p className=" text-sm tracking-widest text-[white]">
+            <p className=" text-sm tracking-widest text-[#fcf3c9]">
               © 2022 By Kamakshee & Chaitanya. Proudly created with love.
             </p>
         </div>
