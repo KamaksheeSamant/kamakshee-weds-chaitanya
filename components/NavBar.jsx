@@ -23,10 +23,10 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           className=""
-          src="/assets/logo.png"
+          src="/assets/ck_logo_final.png"
           alt="logo"
-          width="200"
-          height="200"
+          width="160"
+          height="160"
         />
         <ul className="hidden md:flex">
           <Link href="/#main">
@@ -61,17 +61,17 @@ const NavBar = () => {
         <div
           className={
             isSideMenuOpen
-              ? "fixed md:hidden top-0 left-o w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e79e9e] p-10 ease-in duration-500"
+              ? "fixed md:hidden top-0 left-o w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e79e9e] p-5 ease-in duration-500"
               : "fixed top-0 left-[100%] p-10 ease-out duration-500"
           }
         >
           <div className="flex w-full item-center justify-between">
             <Image
               className=""
-              src="/assets/logo.png"
+              src="/assets/ck_logo_final.png"
               alt="logo"
-              width="200"
-              height="200"
+              width="160"
+              height="160"
             />
             <div className="h-[50px] rounded-full shadow-lg p-3 shadow-gray-700 cursor-pointer">
               <AiOutlineClose
@@ -80,8 +80,8 @@ const NavBar = () => {
               />
             </div>
           </div>
-          <div className="border-b border-gray-300 my-4">
-            <p className="w-[85%] md:w-[90%] py-4">okokokok</p>
+          <div className="border-b border-gray-300 my-2">
+            <p className="py-2">Kamakshee Weds Chaitanya</p>
           </div>
           <div className="flex py-4 flex-col">
             <ul className="uppercase">
