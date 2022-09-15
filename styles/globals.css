@@ -2,73 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-@layer base{
-
-  html{
+@layer base {
+  html {
     scroll-behavior: smooth;
   }
 
-  body{
-    @apply bg-[#f7cacc] text-[#020205] tracking-wide
+  body {
+    @apply bg-[#f7cacc] text-[#020205] tracking-wide;
   }
 
-  h1, h2, h3, h4, h5, h6{
-    @apply font-bold
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
-  h1{
-    @apply text-4xl sm:text-5xl md:text-6xl 
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
   }
-  h2{
-    @apply text-3xl sm:text-4xl
+  h2 {
+    @apply text-3xl sm:text-4xl;
   }
-  li{
-    @apply cursor-pointer
+  li {
+    @apply cursor-pointer;
   }
-  button{
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5ba36d] to-[#795656]
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5ba36d] to-[#795656];
   }
 }
 
-.angle1:after{
+.angle1:after {
   background-color: #f7cacc;
   height: 120px;
-  content: '';
+  content: "";
   display: block;
   clip-path: polygon(100% 100%, 100% 0, 0 0);
 }
 
-.angle2:after{
+.angle2:after {
   background-color: #48d8a4;
   height: 120px;
-  content: '';
+  content: "";
   display: block;
   clip-path: polygon(0 0, 100% 0, 25% 100%);
 }
 
-.angle3:after{
+.angle3:after {
   background-color: #7689d8;
   height: 120px;
-  content: '';
+  content: "";
   display: block;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
 }
 
-.angle4:after{
-  background-color:rgb(251 146 60 / 1);
+.angle5:after {
+  background-color: #f4c0af;
   height: 120px;
-  content: '';
+  content: "";
   display: block;
   clip-path: polygon(0 0, 100% 0, 0 100%);
 }
 
+.angle4:after {
+  background-color: rgb(251 146 60 / 1);
+  height: 120px;
+  content: "";
+  display: block;
+  clip-path: polygon(100% 100%, 100% 0, 0 0);
+}
 
-.mainEnd:after{
-  background-image: url(/kamakshee-weds-chaitanya/assets/main-flower.svg);
+.mainEnd:after {
+  background-image: url(/assets/main-flower.svg);
   background-size: 160px;
   background-repeat: no-repeat;
-  content: '';
+  content: "";
   display: block;
   width: 160px;
   height: 200px;
@@ -78,11 +87,11 @@
   right: 0px;
 }
 
-.storyBlockEnd:after{
-  background-image: url(/kamakshee-weds-chaitanya/assets/heart.svg);
+.storyBlockEnd:after {
+  background-image: url(/assets/heart.svg);
   background-size: 160px;
   background-repeat: no-repeat;
-  content: '';
+  content: "";
   display: block;
   width: 160px;
   height: 160px;
@@ -92,8 +101,8 @@
   left: 0px;
 }
 
-.regardsBlockStart:after{
-  content: url(/kamakshee-weds-chaitanya/assets/namaste.png);
+.regardsBlockStart:after {
+  content: url(/assets/namaste.png);
   display: block;
   z-index: 1;
   height: auto;
@@ -102,12 +111,11 @@
   left: 0px;
 }
 
-
-.weddingEnd:after{
-  background-image: url(/kamakshee-weds-chaitanya/assets/ring.svg);
+.weddingEnd:after {
+  background-image: url(/assets/ring.svg);
   background-size: 160px;
   background-repeat: no-repeat;
-  content: '';
+  content: "";
   display: block;
   width: 160px;
   height: 160px;
@@ -115,4 +123,12 @@
   position: absolute;
   z-index: 1;
   right: 0px;
+}
+
+input, textarea{
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #cd9403;
 }

@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
+import { collection, getDocs } from "@firebase/firestore";
 import Link from "next/link";
 import Image from "next/image";
 import Timmer from "./Timmer";
 import Vl from "./Vl";
+import { db } from '../firebase.config';
 
 function Main() {
+  const {students,setStudents} = useState([]);
+  const studentsRef = collection(db,"students");
+  useEffect(()=>{
+    const getStudents = async() =>{
+      const data = await getDocs(studentsRef);
+      console.log(">>>>>",data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+      // setStudents();
+      // console.log("students >>>>>",students);
+    }
+    getStudents();
+  },[studentsRef,setStudents,students]);
   return (
     <div id="main" className="w-full h-fit text-center pt-28 mainEnd">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center">
@@ -33,10 +46,10 @@ function Main() {
           <p className="py-1 text-lg tracking-widest text-[#daa520]">
             At Suryavanshi
           </p>
-          <Link href="/#wedding" target="_self">
-            <span className="cursor-pointer border-2 border-[#daa520] text-[#daa520] p-4 max-w-[250px] m-auto my-10">
+          <Link href="/#rsvp" target="_self">
+            <div className="cursor-pointer border-2 border-[#daa520] text-[#daa520] p-4 max-w-[250px] m-auto my-10">
               More details
-            </span>
+            </div>
           </Link>
         </div>
       </div>

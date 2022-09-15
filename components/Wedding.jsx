@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Icon } from "react-icons-kit";
 import { location } from "react-icons-kit/icomoon/location";
 import { clock } from "react-icons-kit/icomoon/clock";
@@ -41,6 +42,12 @@ function Wedding() {
               Swatantriyveer Savarkar Marg, Opp.Catering College, Dadar West, Dadar, Mumbai, Maharashtra 400028, India
             </p>
           </div>
+
+          <Link href="/#rsvp" target="_self">
+            <div className="cursor-pointer border-2 border-[#fcf3c9] text-[#fcf3c9] p-4 max-w-[250px] m-auto my-10">
+              RSVP
+            </div>
+          </Link>
         </div>
       </div>
     </div>
