@@ -74,7 +74,7 @@
 }
 
 .mainEnd:after {
-  background-image: url(/assets/main-flower.svg);
+  background-image: url(/kamakshee-weds-chaitanya/assets/main-flower.svg);
   background-size: 160px;
   background-repeat: no-repeat;
   content: "";
@@ -88,7 +88,7 @@
 }
 
 .storyBlockEnd:after {
-  background-image: url(/assets/heart.svg);
+  background-image: url(/kamakshee-weds-chaitanya/assets/heart.svg);
   background-size: 160px;
   background-repeat: no-repeat;
   content: "";
@@ -102,7 +102,7 @@
 }
 
 .regardsBlockStart:after {
-  content: url(/assets/namaste.png);
+  content: url(/kamakshee-weds-chaitanya/assets/namaste.png);
   display: block;
   z-index: 1;
   height: auto;
@@ -112,7 +112,7 @@
 }
 
 .weddingEnd:after {
-  background-image: url(/assets/ring.svg);
+  background-image: url(/kamakshee-weds-chaitanya/assets/ring.svg);
   background-size: 160px;
   background-repeat: no-repeat;
   content: "";
