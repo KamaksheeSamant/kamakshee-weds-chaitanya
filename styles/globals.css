@@ -58,7 +58,7 @@
 }
 
 .angle5:after {
-  background-color: #f4c0af;
+  background-color: rgb(251 146 60 / 1);
   height: 120px;
   content: "";
   display: block;

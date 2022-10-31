@@ -36,18 +36,21 @@ function Wedding() {
           </div>
           <div className="flex align-center justify-around">
             <p className="p-6 text-lg tracking-widest text-[#fcf3c9] w-1/2">
-              December 17, 2022, 9:00 AM
+              <p>on Sunday, 17th December 2022</p>
+              <p>Muhurtham ~ 12.33pm</p>
+              <p>followed by Lunch and Reception</p>
             </p>
             <p className="p-6 text-lg tracking-widest text-[#fcf3c9] w-1/2">
-              Swatantriyveer Savarkar Marg, Opp.Catering College, Dadar West, Dadar, Mumbai, Maharashtra 400028, India
+              Suryavanshi Banquet, 2nd Floor, Gate No. 3, 300, Veer Savarkar Marg, Opp. Dadar Catering college, Dadar (W), 
+              Mumbai - 400 028.
             </p>
           </div>
 
-          <Link href="/#rsvp" target="_self">
+          {/* <Link href="/#rsvp" target="_self">
             <div className="cursor-pointer border-2 border-[#fcf3c9] text-[#fcf3c9] p-4 max-w-[250px] m-auto my-10">
               RSVP
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

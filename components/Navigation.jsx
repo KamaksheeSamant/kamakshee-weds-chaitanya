@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <div
       id="navigation"
-      className="w-full h-fit text-center pt-28 bg-orange-400"
+      className="w-full h-fit text-center pt-28 bg-orange-400 regardsBlockStart"
     >
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 justify-center items-center flex flex-col">
         <h2 className="py-6 text-[#fcf3c9]">Getting There</h2>
@@ -31,14 +31,14 @@ function Navigation() {
         <div className="flex align-center justify-evenly py-8 mt-14 w-full">
           <div style={{ color: "#fcf3c9" }}>
             <Icon size={64} icon={ic_directions_car} />
-            <h3 className="py-4 text-[#fcf3c9] font-serif">By Car</h3>
+            <h3 className="py-4 text-[#fcf3c9] font-serif">By Car/ Taxi</h3>
           </div>
           <Vl color="#fcf3c9" />
-          <div style={{ color: "#fcf3c9" }}>
+          {/* <div style={{ color: "#fcf3c9" }}>
             <Icon size={64} icon={ic_commute} />
             <h3 className="py-4 text-[#fcf3c9] font-serif">By Train/Bus</h3>
-          </div>
-          <Vl color="#fcf3c9" />
+          </div> */}
+          {/* <Vl color="#fcf3c9" /> */}
           <div style={{ color: "#fcf3c9" }}>
             <Icon size={64} icon={ic_airplanemode_active} />
             <h3 className="py-4 text-[#fcf3c9] font-serif">By Flight</h3>
@@ -46,13 +46,13 @@ function Navigation() {
         </div>
         <div className="flex align-center justify-around w-full pb-20">
           <p className="p-4 text-lg tracking-widest text-[#fcf3c9] w-1/3">
-            Drive 1.5 hours from San Jose
+            Takes 20 mins from Dadar station(W)
           </p>
+          {/* <p className="p-4 text-lg tracking-widest text-[#fcf3c9] w-1/3">
+            Get down at Dadar station(W), then catch Bus (No. )
+          </p> */}
           <p className="p-4 text-lg tracking-widest text-[#fcf3c9] w-1/3">
-            Drive 1.5 hours from San Jose
-          </p>
-          <p className="p-4 text-lg tracking-widest text-[#fcf3c9] w-1/3">
-            Drive 1.5 hours from San Jose
+            Drive ~1 hours from Chhatrapati Shivaji Maharaj International Airport
           </p>
         </div>
       </div>
