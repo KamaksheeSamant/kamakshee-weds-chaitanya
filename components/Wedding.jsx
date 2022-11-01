@@ -36,7 +36,7 @@ function Wedding() {
           </div>
           <div className="flex align-center justify-around">
             <p className="p-6 text-lg tracking-widest text-[#fcf3c9] w-1/2">
-              <p>on Sunday, 17th December 2022</p>
+              <p>on Saturday, 17th December 2022</p>
               <p>Muhurtham ~ 12.33pm</p>
               <p>followed by Lunch and Reception</p>
             </p>
