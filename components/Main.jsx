@@ -50,7 +50,7 @@ function Main() {
           <Vl />
           <h2 className="py-2 text-[#daa520]">December 17, 2022</h2>
           <p className="py-1 text-lg tracking-widest text-[#daa520]">
-            At Suryavanshi
+            At Suryavanshi Banquet
           </p>
           <Link href="/#wedding" target="_self">
             <div className="cursor-pointer border-2 border-[#daa520] text-[#daa520] p-4 max-w-[250px] m-auto my-10">
